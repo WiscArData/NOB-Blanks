@@ -1,42 +1,117 @@
 {
-		"IC0":{
-				"value":28.300032000000005,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":3.683305399606899,
-				"errortype":"std"
-				},
-		"IC1":{
-				"value":10.555559111111112,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":2.505552251171109,
-				"errortype":"std"
-				},
-		"IC2":{
-				"value":169.30114999999998,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":11.954247502991462,
-				"errortype":"std"
-				},
-		"IC3":{
-				"value":0.1111111111111111,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":0.33333333333333343,
-				"errortype":"std"
-				},
-		"FC":{
-				"value":-0.0029048162000000002,
-				"fit":"mean",
-				"filter_outliers_dict":[
-				],
-				"error":3.0480050210661515E-5,
-				"errortype":"std"
-				}
-		}
+    "FC": {
+        "error": 3.0480050210661515e-05,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": -0.0029048162000000002
+    },
+    "IC0": {
+        "error": 3.683305399606899,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 28.300032000000005
+    },
+    "IC1": {
+        "error": 2.505552251171109,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 10.555559111111112
+    },
+    "IC2": {
+        "error": 11.954247502991462,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 169.30114999999998
+    },
+    "IC3": {
+        "error": 0.3333333333333334,
+        "errortype": "std",
+        "filter_outliers_dict": [],
+        "fit": "mean",
+        "value": 0.1111111111111111
+    },
+    "S101IC0-": {
+        "error": 1.16476348048221,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 10,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 28.300031661987305
+    },
+    "S101IC1-": {
+        "error": 0.8351840396405379,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            8
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 10.55555894639757
+    },
+    "S101IC2-": {
+        "error": 3.7802647590052048,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 10,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 169.30115203857423
+    },
+    "S101IC3-": {
+        "error": 0.1111111111111111,
+        "error_type": "SEM",
+        "filter_outliers_dict": {
+            "filter_outliers": true,
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": true
+        },
+        "fit": "average",
+        "fn": 9,
+        "include_baseline_error": false,
+        "n": 10,
+        "outlier_excluded": [
+            8
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.1111111111111111
+    }
+}
